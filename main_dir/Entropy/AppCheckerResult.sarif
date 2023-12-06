@@ -14,29 +14,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Title_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "App.SharePointIntegration.OnNew"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Title_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "App.SharePointIntegration.OnNew",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "SharePointForm1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.Title_DataCard1.DataCardValue1"
+                "member": "OnNew",
+                "module": "App",
+                "type": "App.SharePointIntegration"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "SharePointForm1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -44,29 +54,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.'Ship Type_DataCard1'.DataCardValue2.AccessibleLabel"
+                  "fullyQualifiedName": "App.SharePointIntegration.OnEdit"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.'Ship Type_DataCard1'.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "App.SharePointIntegration.OnEdit",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "SharePointForm1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.'Ship Type_DataCard1'.DataCardValue2"
+                "member": "OnEdit",
+                "module": "App",
+                "type": "App.SharePointIntegration"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "SharePointForm1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -74,29 +94,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Length_DataCard1.DataCardValue3.AccessibleLabel"
+                  "fullyQualifiedName": "App.SharePointIntegration.OnView"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Length_DataCard1.DataCardValue3.AccessibleLabel",
+                  "fullyQualifiedName": "App.SharePointIntegration.OnView",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "SharePointForm1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.Length_DataCard1.DataCardValue3"
+                "member": "OnView",
+                "module": "App",
+                "type": "App.SharePointIntegration"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "SharePointForm1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -104,29 +134,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Beam_DataCard1.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "App.SharePointIntegration.OnView"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Beam_DataCard1.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "App.SharePointIntegration.OnView",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ViewForm(SharePointForm1)"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.Beam_DataCard1.DataCardValue4"
+                "member": "OnView",
+                "module": "App",
+                "type": "App.SharePointIntegration"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "ViewForm"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.SharePointIntegration.OnSave"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.SharePointIntegration.OnSave",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": "SharePointForm1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSave",
+                "module": "App",
+                "type": "App.SharePointIntegration"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "SharePointForm1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -134,29 +214,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Crew_DataCard1.DataCardValue5.AccessibleLabel"
+                  "fullyQualifiedName": "App.SharePointIntegration.OnCancel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Crew_DataCard1.DataCardValue5.AccessibleLabel",
+                  "fullyQualifiedName": "App.SharePointIntegration.OnCancel",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 10,
+                  "snippet": {
+                    "text": "SharePointForm1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.Crew_DataCard1.DataCardValue5"
+                "member": "OnCancel",
+                "module": "App",
+                "type": "App.SharePointIntegration"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "SharePointForm1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -164,49 +254,59 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Width_DataCard1.DataCardValue6.AccessibleLabel"
+                  "fullyQualifiedName": "App.SharePointIntegration.OnCancel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Width_DataCard1.DataCardValue6.AccessibleLabel",
+                  "fullyQualifiedName": "App.SharePointIntegration.OnCancel",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ResetForm(SharePointForm1)"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.Width_DataCard1.DataCardValue6"
+                "member": "OnCancel",
+                "module": "App",
+                "type": "App.SharePointIntegration"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "ResetForm"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Height_DataCard1.DataCardValue7.AccessibleLabel"
+                  "fullyQualifiedName": "FormScreen1.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Height_DataCard1.DataCardValue7.AccessibleLabel",
+                  "fullyQualifiedName": "FormScreen1.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.Height_DataCard1.DataCardValue7"
+                "type": "FormScreen1.Form1.Attachments_DataCard2.DataCardValue18"
               }
             }
           ],
@@ -217,67 +317,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Decks_DataCard1.DataCardValue8.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Decks_DataCard1.DataCardValue8.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.Decks_DataCard1.DataCardValue8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Attachments_DataCard1.DataCardValue9.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Attachments_DataCard1.DataCardValue9.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.Attachments_DataCard1.DataCardValue9"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -285,6 +325,37 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
