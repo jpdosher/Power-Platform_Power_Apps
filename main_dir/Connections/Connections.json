@@ -1,0 +1,24 @@
+{
+  "ad8cbb00-cbcc-4a88-b817-475d24a06113": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://xl86x.sharepoint.com/sites/StarTrekSP": {
+        "dataSources": {
+          "SpaceShips": {
+            "tableName": "4328af1c-4805-4e9c-a0df-74f3ff30d3b7"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "SpaceShips"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ad8cbb00-cbcc-4a88-b817-475d24a06113"
+  }
+}
