@@ -6,7 +6,7 @@
     SharePointForm1 As form:
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
-        Height: =804
+        Height: =705
         Item: =SharePointIntegration.Selected
         NumberOfColumns: =2
         OnSuccess: =ResetForm(SharePointForm1);RequestHide()
