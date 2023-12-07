@@ -7,6 +7,18 @@
     {
       "EntityName": "PlatinumTheme",
       "ThemeName": "PlatinumTheme"
+    },
+    {
+      "EntityName": "RedTheme",
+      "ThemeName": "RedTheme"
+    },
+    {
+      "EntityName": "GreenTheme",
+      "ThemeName": "GreenTheme"
+    },
+    {
+      "EntityName": "SteelTheme",
+      "ThemeName": "SteelTheme"
     }
   ]
 }

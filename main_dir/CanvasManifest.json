@@ -94,10 +94,10 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 7,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Web",
@@ -113,7 +113,7 @@
     "Id": "ff5bde6a-4458-447b-b7a4-55b0879f367e",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "SpaceShips on Star Trek SP forms",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,

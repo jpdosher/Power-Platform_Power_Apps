@@ -39,7 +39,7 @@
       "OData__ColorTag": "Color Tag",
       "ShipType": "Ship Type",
       "ShipType#Id": "Ship Type Id",
-      "Title": "Title",
+      "Title": "Ship Title",
       "Width": "Width"
     },
     "DatasetName": "https://xl86x.sharepoint.com/sites/StarTrekSP",
