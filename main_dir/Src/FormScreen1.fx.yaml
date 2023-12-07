@@ -6,7 +6,7 @@
     SharePointForm1 As form:
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
-        Height: =705
+        Height: =625
         Item: =SharePointIntegration.Selected
         NumberOfColumns: =2
         OnSuccess: =ResetForm(SharePointForm1);RequestHide()
@@ -787,7 +787,7 @@
                 Wrap: =false
                 X: =32
                 Y: =10
-                ZIndex: =1
+                ZIndex: =2
 
             DataCardValue27 As attachments:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
@@ -819,7 +819,7 @@
                 Width: =Parent.Width - 60
                 X: =32
                 Y: =DataCardKey27.Y + DataCardKey27.Height + 5
-                ZIndex: =2
+                ZIndex: =3
 
             ErrorMessage27 As label:
                 AutoHeight: =true
@@ -838,7 +838,7 @@
                 Width: =Parent.Width - 60
                 X: =32
                 Y: =DataCardValue27.Y + DataCardValue27.Height
-                ZIndex: =3
+                ZIndex: =4
 
             StarVisible27 As label:
                 Align: =Align.Center
@@ -853,7 +853,7 @@
                 Wrap: =false
                 X: =2
                 Y: =DataCardKey27.Y
-                ZIndex: =4
+                ZIndex: =5
 
     Header6 As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
@@ -867,4 +867,28 @@
         X: =0
         Y: =0
         ZIndex: =4
+
+    Save_1 As Botão:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =39
+        OnSelect: =SubmitForm(SharePointForm1);RequestHide()
+        Text: ="Save and Close"
+        Width: =129
+        X: =32
+        Y: =728
+        ZIndex: =5
+
+    Close As Botão:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =39
+        OnSelect: =ResetForm(SharePointForm1);RequestHide()
+        Text: ="Save and Close"
+        Width: =129
+        X: =286
+        Y: =728
+        ZIndex: =6
 
