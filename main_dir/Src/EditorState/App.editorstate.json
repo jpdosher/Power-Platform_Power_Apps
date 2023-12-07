@@ -114,9 +114,30 @@
       "ControlPropertyState": [
         "DataSource",
         "SelectedHidden",
-        "OnNew",
-        "OnEdit",
-        "OnView",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "NewForm(SharePointForm1)",
+          "InvariantPropertyName": "OnNew",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "EditForm(SharePointForm1)",
+          "InvariantPropertyName": "OnEdit",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "ViewForm(SharePointForm1)",
+          "InvariantPropertyName": "OnView",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "OnSave",
         "OnCancel"
       ],
@@ -147,17 +168,17 @@
         {
           "Category": "Behavior",
           "PropertyName": "OnNew",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Behavior",
           "PropertyName": "OnEdit",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Behavior",
           "PropertyName": "OnView",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Behavior",

@@ -58,14 +58,18 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/07/2023 09:43:16",
+  "HeaderLastSavedDateTimeUTC": "12/07/2023 10:09:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ad8cbb00-cbcc-4a88-b817-475d24a06113": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/975d2a222f634ed8a3e1256b828f29ad\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "large.Icon.png.3732f84cb5b161e9cc1ead8f6f51fa4c": "98444dc8-83e0-4a13-ab0b-d8d738341c52.png"
+  },
+  "LocalResourceRootPaths": {
+    "large.Icon.png.3732f84cb5b161e9cc1ead8f6f51fa4c": "https://docserverpwaprodsbr.blob.core.windows.net/60f37568-22a8-446c-86cb-717b932f5a44-1/resource/9eb91f38-96c6-4df1-ba86-73dcdf668086.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-07T09%3A48%3A02Z&ske=2023-12-08T10%3A03%3A02Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-08T10%3A03%3A02Z&sr=b&sp=r&sig=NoaHyMVpRg%2FSwj0n9larDeW3aFUh21JT9l7MfGNATGk%3D"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
@@ -240,7 +244,9 @@
     "StarVisible27": 43,
     "Width_DataCard3": 27
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-large.Icon.png.3732f84cb5b161e9cc1ead8f6f51fa4c": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {

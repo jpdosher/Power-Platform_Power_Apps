@@ -12,9 +12,9 @@ App As appinfo:
     SharePointIntegration As hostControl.SharePointHostControlVariant:
         DataSource: =[@SpaceShips]
         OnCancel: =ResetForm(SharePointForm1)
-        OnEdit: =EditForm(SharePointForm1)
-        OnNew: =NewForm(SharePointForm1)
+        OnEdit: =Set(varFormType,"Edit");EditForm(SharePointForm1)
+        OnNew: =Set(varFormType,"New");NewForm(SharePointForm1)
         OnSave: =SubmitForm(SharePointForm1)
-        OnView: =ViewForm(SharePointForm1)
+        OnView: =Set(varFormType,"View");ViewForm(SharePointForm1)
         SelectedHidden: =LookUp([@SpaceShips], ID = Self.SelectedListItemID)
 

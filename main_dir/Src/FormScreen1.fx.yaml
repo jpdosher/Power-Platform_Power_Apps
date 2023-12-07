@@ -7,7 +7,7 @@
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
         Height: =625
-        Item: =SharePointIntegration.Selected
+        Item: =If(varFormType = "New",Blank(),SharePointIntegration.Selected)
         NumberOfColumns: =2
         OnSuccess: =ResetForm(SharePointForm1);RequestHide()
         SnapToColumns: =false
@@ -858,8 +858,9 @@
     Header6 As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
         Height: =75
+        Logo: ='large.Icon.png.3732f84cb5b161e9cc1ead8f6f51fa4c'
         OnSelectLogo: =false
-        Title: =App.ActiveScreen.Name
+        Title: ="Space Ships Catalogue"
         UserEmail: =User().Email
         UserImage: =User().Image
         UserName: =User().FullName
@@ -886,7 +887,7 @@
         FontColor: =
         Height: =39
         OnSelect: =ResetForm(SharePointForm1);RequestHide()
-        Text: ="Save and Close"
+        Text: ="Close"
         Width: =129
         X: =286
         Y: =728
