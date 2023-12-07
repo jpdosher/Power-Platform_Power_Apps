@@ -57,35 +57,19 @@
     "TemplateDisplayName": "Cabeçalho",
     "Version": "0.0.25"
   },
-  "Caixa de Combinação": {
+  "combobox": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_ComboboxCanvas",
+    "Id": "http://microsoft.com/appmagic/combobox",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
+    "IsPcfControl": false,
     "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
+    "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "PowerApps_CoreControls_ComboboxCanvas",
+    "Name": "combobox",
     "OverridableProperties": {},
-    "TemplateDisplayName": "Caixa de Combinação",
-    "Version": "0.0.24"
-  },
-  "Entrada de texto": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_TextInputCanvas",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "PowerApps_CoreControls_TextInputCanvas",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Entrada de texto",
-    "Version": "0.0.24"
+    "Version": "2.4.0"
   },
   "form": {
     "CustomGroupControlTemplateName": "",
@@ -169,20 +153,19 @@
     "OverridableProperties": {},
     "Version": "1.6.0"
   },
-  "Texto": {
+  "text": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_TextCanvas",
+    "Id": "http://microsoft.com/appmagic/text",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
+    "IsPcfControl": false,
     "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
+    "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "PowerApps_CoreControls_TextCanvas",
+    "Name": "text",
     "OverridableProperties": {},
-    "TemplateDisplayName": "Texto",
-    "Version": "0.0.20"
+    "Version": "2.3.2"
   },
   "typedDataCard": {
     "CustomGroupControlTemplateName": "",
