@@ -3,7 +3,7 @@
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
-    ButtonCanvas1_1 As Botão:
+    Save As Botão:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontColor: =
@@ -15,6 +15,18 @@
         Y: =736
         ZIndex: =1
 
+    Save_1 As Botão:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =39
+        OnSelect: =ResetForm(SharePointForm1);RequestHide()
+        Text: ="Close"
+        Width: =129
+        X: =286
+        Y: =736
+        ZIndex: =2
+
     SharePointForm1 As form.PowerApps_CoreControls_Form:
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
@@ -24,7 +36,7 @@
         SnapToColumns: =false
         UseFluentV9Cards: =true
         Width: =444
-        ZIndex: =2
+        ZIndex: =3
 
         "'Ship Title_DataCard2' As typedDataCard.fluentV9TextualEditCard":
             BorderColor: =RGBA(197, 203, 207, 1)

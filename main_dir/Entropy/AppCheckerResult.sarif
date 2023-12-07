@@ -44,19 +44,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.ButtonCanvas1_1.AccessibleLabel"
+                  "fullyQualifiedName": "FormScreen1.Save.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.ButtonCanvas1_1.AccessibleLabel",
+                  "fullyQualifiedName": "FormScreen1.Save.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormScreen1",
-                "type": "FormScreen1.ButtonCanvas1_1"
+                "type": "FormScreen1.Save"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormScreen1.Save_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormScreen1.Save_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormScreen1",
+                "type": "FormScreen1.Save_1"
               }
             }
           ],
