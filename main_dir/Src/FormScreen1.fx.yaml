@@ -34,6 +34,7 @@
         Height: =804
         Item: =SharePointIntegration.Selected
         OnSuccess: =ResetForm(SharePointForm1);RequestHide()
+        SnapToColumns: =false
         Width: =444
         Y: =85
         ZIndex: =3
