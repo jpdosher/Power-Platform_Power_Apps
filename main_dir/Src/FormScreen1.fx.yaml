@@ -1,6 +1,5 @@
 "FormScreen1 As screen.'webHostedFormLayout_ver3.0'":
     Fill: =RGBA(29, 29, 29, 1)
-    Height: =900
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
@@ -800,6 +799,7 @@
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(0, 0, 0, 1)
                 FocusedBorderThickness: =1
+                Height: =120
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(62, 74, 83, 1)
                 IsInDataCard: =true
