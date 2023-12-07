@@ -28,6 +28,7 @@
         ZIndex: =2
 
     SharePointForm1 As form.PowerApps_CoreControls_Form:
+        AcceptsFocus: =false
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
         Height: =723
@@ -478,11 +479,14 @@
             ZIndex: =2
 
             DataCardKey17 As Texto:
+                Align: ="Start"
                 DisplayMode: =DisplayMode.Edit
-                Height: =22
+                FontColor: =Color.White
+                Height: =30
+                Size: =18
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
+                Width: =158
                 Wrap: =false
                 X: =24
                 Y: =4 + (DataCardValue17.Height / 2) - (Self.Height / 2)
@@ -615,4 +619,17 @@
                 X: =2
                 Y: =DataCardKey18.Y
                 ZIndex: =4
+
+    Header6 As Cabeçalho:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =4
 

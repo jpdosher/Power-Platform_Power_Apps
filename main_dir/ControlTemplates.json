@@ -42,6 +42,21 @@
     "TemplateDisplayName": "Botão",
     "Version": "0.0.27"
   },
+  "Cabeçalho": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Header",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Header",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Cabeçalho",
+    "Version": "0.0.25"
+  },
   "Caixa de Combinação": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
