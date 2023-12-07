@@ -1,6 +1,6 @@
 "FormScreen1 As screen.'webHostedFormLayout_ver3.0'":
     Fill: =RGBA(29, 29, 29, 1)
-    Height: =Max(App.Height,App.MinScreenHeight)
+    Height: =900
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
