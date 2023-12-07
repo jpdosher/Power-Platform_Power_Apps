@@ -1,6 +1,6 @@
 "FormScreen1 As screen.'webHostedFormLayout_ver3.0'":
     Fill: =RGBA(29, 29, 29, 1)
-    Height: =1100
+    Height: =Max(App.Height,App.MinScreenHeight)
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
@@ -32,6 +32,8 @@
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
         Height: =804
+        Item: =SharePointIntegration.Selected
+        OnSuccess: =ResetForm(SharePointForm1);RequestHide()
         Width: =444
         Y: =85
         ZIndex: =3
