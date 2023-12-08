@@ -15,10 +15,10 @@
     SharePointForm1 As form.PowerApps_CoreControls_Form:
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
-        Height: =335
+        Height: =567
         NumberOfColumns: =2
         UseFluentV9Cards: =true
-        Width: =437
+        Width: =732
         X: =282
         Y: =85
         ZIndex: =2
@@ -35,7 +35,7 @@
             MaxLength: =DataSourceInfo([@SpaceShips], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =DataCardValue1.Value
-            Width: =218
+            Width: =366
             X: =0
             Y: =0
             ZIndex: =8
@@ -98,7 +98,7 @@
             Height: =100
             Required: =false
             Update: =DataCardValue2.Selected
-            Width: =218
+            Width: =366
             X: =1
             Y: =0
             ZIndex: =8
@@ -159,7 +159,7 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue4.Value)
-            Width: =218
+            Width: =366
             X: =1
             Y: =1
             ZIndex: =8
@@ -220,7 +220,7 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue3.Value)
-            Width: =218
+            Width: =366
             X: =0
             Y: =1
             ZIndex: =8
@@ -281,7 +281,7 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue5.Value)
-            Width: =218
+            Width: =366
             X: =0
             Y: =2
             ZIndex: =8
@@ -342,7 +342,7 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue6.Value)
-            Width: =218
+            Width: =366
             X: =1
             Y: =2
             ZIndex: =8
@@ -403,7 +403,7 @@
             Height: =60
             Required: =false
             Update: =Value(DataCardValue7.Value)
-            Width: =218
+            Width: =366
             X: =0
             Y: =3
             ZIndex: =8
@@ -464,7 +464,7 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue8.Value)
-            Width: =218
+            Width: =366
             X: =1
             Y: =3
             ZIndex: =8
@@ -525,7 +525,7 @@
             Height: =57
             Required: =false
             Update: =DataCardValue9.Attachments
-            Width: =218
+            Width: =366
             X: =0
             Y: =4
             ZIndex: =8
@@ -634,8 +634,8 @@
         OnSelect: =ResetForm(SharePointForm1);RequestHide()
         Text: ="Close"
         Width: =129
-        X: =306
-        Y: =430
+        X: =282
+        Y: =668
         ZIndex: =4
 
     Save_2 As Botão:
@@ -646,11 +646,12 @@
         OnSelect: =SubmitForm(SharePointForm1);RequestHide()
         Text: ="Save and Close"
         Width: =129
-        X: =53
-        Y: =430
+        X: =56
+        Y: =668
         ZIndex: =5
 
     Label1 As label:
+        Align: =Align.Center
         BorderColor: =RGBA(197, 203, 207, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)

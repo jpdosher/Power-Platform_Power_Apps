@@ -60,7 +60,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/08/2023 08:38:07",
+  "HeaderLastSavedDateTimeUTC": "12/08/2023 09:14:07",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ad8cbb00-cbcc-4a88-b817-475d24a06113": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/975d2a222f634ed8a3e1256b828f29ad\""
@@ -89,9 +89,9 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "attachments": 3,
-    "form": 2,
-    "image": 1,
-    "label": 0
+    "form": 1,
+    "image": 0,
+    "label": 2
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -647,7 +647,7 @@
     "App": 0,
     "Attachments_DataCard1": 43,
     "Beam_DataCard1": 13,
-    "Close_1": 49,
+    "Close_1": 50,
     "Crew_DataCard1": 23,
     "DataCardKey1": 5,
     "DataCardKey2": 10,
@@ -682,9 +682,9 @@
     "Height_DataCard1": 33,
     "Host": 0,
     "Image1": 1,
-    "Label1": 0,
+    "Label1": 48,
     "Length_DataCard1": 18,
-    "Save_2": 48,
+    "Save_2": 49,
     "SharePointForm1": 2,
     "SharePointIntegration": 0,
     "Ship Title_DataCard1": 3,
