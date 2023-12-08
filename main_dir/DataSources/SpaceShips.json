@@ -37,6 +37,7 @@
       "Length": "Length",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
+      "ShipImage": "Ship Image",
       "ShipType": "Ship Type",
       "ShipType#Id": "Ship Type Id",
       "Title": "Ship Title",

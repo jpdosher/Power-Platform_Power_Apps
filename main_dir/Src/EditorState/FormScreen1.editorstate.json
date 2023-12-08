@@ -66,8 +66,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Attachments_DataCard1",
       "OptimizeForDevices": "Off",
@@ -214,12 +214,12 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Beam_DataCard1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -342,7 +342,7 @@
       "MetaDataIDKey": "",
       "Name": "Close_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -465,8 +465,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Crew_DataCard1",
       "OptimizeForDevices": "Off",
@@ -588,8 +588,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey1",
       "OptimizeForDevices": "Off",
@@ -691,8 +691,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey2",
       "OptimizeForDevices": "Off",
@@ -794,8 +794,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey3",
       "OptimizeForDevices": "Off",
@@ -897,8 +897,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey4",
       "OptimizeForDevices": "Off",
@@ -1000,8 +1000,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey5",
       "OptimizeForDevices": "Off",
@@ -1103,8 +1103,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey6",
       "OptimizeForDevices": "Off",
@@ -1206,8 +1206,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey7",
       "OptimizeForDevices": "Off",
@@ -1309,8 +1309,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey8",
       "OptimizeForDevices": "Off",
@@ -1429,12 +1429,12 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey9",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1695,8 +1695,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue1",
       "OptimizeForDevices": "Off",
@@ -1802,8 +1802,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue2",
       "OptimizeForDevices": "Off",
@@ -1899,8 +1899,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue3",
       "OptimizeForDevices": "Off",
@@ -1996,8 +1996,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue4",
       "OptimizeForDevices": "Off",
@@ -2093,8 +2093,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue5",
       "OptimizeForDevices": "Off",
@@ -2190,8 +2190,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue6",
       "OptimizeForDevices": "Off",
@@ -2287,8 +2287,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue7",
       "OptimizeForDevices": "Off",
@@ -2384,8 +2384,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue8",
       "OptimizeForDevices": "Off",
@@ -2534,12 +2534,12 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue9",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2887,8 +2887,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Decks_DataCard1",
       "OptimizeForDevices": "Off",
@@ -3002,8 +3002,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage1",
       "OptimizeForDevices": "Off",
@@ -3092,8 +3092,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage2",
       "OptimizeForDevices": "Off",
@@ -3182,8 +3182,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage3",
       "OptimizeForDevices": "Off",
@@ -3272,8 +3272,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage4",
       "OptimizeForDevices": "Off",
@@ -3362,8 +3362,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage5",
       "OptimizeForDevices": "Off",
@@ -3452,8 +3452,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage6",
       "OptimizeForDevices": "Off",
@@ -3542,8 +3542,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage7",
       "OptimizeForDevices": "Off",
@@ -3632,8 +3632,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage8",
       "OptimizeForDevices": "Off",
@@ -3754,8 +3754,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage9",
       "OptimizeForDevices": "Off",
@@ -4222,9 +4222,23 @@
         "BorderStyle",
         "Fill",
         "X",
-        "Y",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Y",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Width",
-        "Height",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Height",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "ZIndex"
       ],
       "HasDynamicProperties": false,
@@ -4233,8 +4247,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Height_DataCard1",
       "OptimizeForDevices": "Off",
@@ -4315,6 +4329,465 @@
       "StyleName": "defaultTypedDataCardStyle",
       "Type": "ControlInfo"
     },
+    "Image1": {
+      "AllowAccessToGlobals": true,
+      "ControlPropertyState": [
+        "Image",
+        "ImagePosition",
+        "ImageRotation",
+        "X",
+        "Y",
+        "Width",
+        "Height",
+        "Fill",
+        "DisabledFill",
+        "PressedFill",
+        "HoverFill",
+        "BorderColor",
+        "DisabledBorderColor",
+        "PressedBorderColor",
+        "HoverBorderColor",
+        "FocusedBorderColor",
+        "BorderStyle",
+        "DisplayMode",
+        "ZIndex",
+        "RadiusTopLeft",
+        "RadiusTopRight",
+        "RadiusBottomLeft",
+        "RadiusBottomRight",
+        "BorderThickness",
+        "FocusedBorderThickness",
+        "PaddingTop",
+        "PaddingRight",
+        "PaddingBottom",
+        "PaddingLeft"
+      ],
+      "HasDynamicProperties": false,
+      "IsAutoGenerated": false,
+      "IsComponentDefinition": false,
+      "IsDataControl": false,
+      "IsFromScreenLayout": false,
+      "IsGroupControl": false,
+      "IsLocked": false,
+      "LayoutName": "",
+      "MetaDataIDKey": "",
+      "Name": "Image1",
+      "OptimizeForDevices": "Off",
+      "ParentIndex": 2,
+      "PersistMetaDataIDKey": false,
+      "Properties": [
+        {
+          "Category": "Data",
+          "PropertyName": "Image",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ImagePosition",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ImageRotation",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "X",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Y",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Width",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Fill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisplayMode",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "RadiusTopLeft",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "RadiusTopRight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "RadiusBottomLeft",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "RadiusBottomRight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingTop",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingRight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingBottom",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingLeft",
+          "RuleProviderType": "Unknown"
+        }
+      ],
+      "StyleName": "defaultImageStyle",
+      "Type": "ControlInfo"
+    },
+    "Label1": {
+      "AllowAccessToGlobals": true,
+      "ControlPropertyState": [
+        "Live",
+        "Overflow",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"Texto\"",
+          "InvariantPropertyName": "Text",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "Role",
+        "Color",
+        "DisabledColor",
+        "PressedColor",
+        "HoverColor",
+        "BorderColor",
+        "DisabledBorderColor",
+        "PressedBorderColor",
+        "HoverBorderColor",
+        "BorderStyle",
+        "FocusedBorderColor",
+        "Fill",
+        "DisabledFill",
+        "PressedFill",
+        "HoverFill",
+        "Font",
+        "FontWeight",
+        "Align",
+        "VerticalAlign",
+        "X",
+        "Y",
+        "Width",
+        "Height",
+        "DisplayMode",
+        "ZIndex",
+        "LineHeight",
+        "BorderThickness",
+        "FocusedBorderThickness",
+        "Size",
+        "Italic",
+        "Underline",
+        "Strikethrough",
+        "PaddingTop",
+        "PaddingRight",
+        "PaddingBottom",
+        "PaddingLeft"
+      ],
+      "HasDynamicProperties": false,
+      "IsAutoGenerated": false,
+      "IsComponentDefinition": false,
+      "IsDataControl": false,
+      "IsFromScreenLayout": false,
+      "IsGroupControl": false,
+      "IsLocked": false,
+      "LayoutName": "",
+      "MetaDataIDKey": "",
+      "Name": "Label1",
+      "OptimizeForDevices": "Off",
+      "ParentIndex": 1,
+      "PersistMetaDataIDKey": false,
+      "Properties": [
+        {
+          "Category": "Data",
+          "PropertyName": "Live",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Text",
+          "RuleProviderType": "User"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Role",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Overflow",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Color",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Fill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Font",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FontWeight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Align",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "VerticalAlign",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "X",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Y",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Width",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisplayMode",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "LineHeight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Size",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Italic",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Underline",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Strikethrough",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingTop",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingRight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingBottom",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingLeft",
+          "RuleProviderType": "Unknown"
+        }
+      ],
+      "StyleName": "defaultLabelStyle",
+      "Type": "ControlInfo"
+    },
     "Length_DataCard1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
@@ -4381,12 +4854,12 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Length_DataCard1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4509,7 +4982,7 @@
       "MetaDataIDKey": "",
       "Name": "Save_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4595,6 +5068,14 @@
           "InvariantPropertyName": "NumberOfColumns",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "SnapToColumns",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -4604,11 +5085,11 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": false,
-      "LayoutName": "horizontal",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "SharePointForm1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4674,6 +5155,11 @@
         {
           "Category": "Design",
           "PropertyName": "NumberOfColumns",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "SnapToColumns",
           "RuleProviderType": "Unknown"
         }
       ],
@@ -4754,8 +5240,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Ship Title_DataCard1",
       "OptimizeForDevices": "Off",
@@ -4907,8 +5393,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Ship Type_DataCard1",
       "OptimizeForDevices": "Off",
@@ -5022,8 +5508,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible1",
       "OptimizeForDevices": "Off",
@@ -5112,8 +5598,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible2",
       "OptimizeForDevices": "Off",
@@ -5202,8 +5688,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible3",
       "OptimizeForDevices": "Off",
@@ -5292,8 +5778,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible4",
       "OptimizeForDevices": "Off",
@@ -5382,8 +5868,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible5",
       "OptimizeForDevices": "Off",
@@ -5472,8 +5958,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible6",
       "OptimizeForDevices": "Off",
@@ -5562,8 +6048,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible7",
       "OptimizeForDevices": "Off",
@@ -5652,8 +6138,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible8",
       "OptimizeForDevices": "Off",
@@ -5774,8 +6260,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible9",
       "OptimizeForDevices": "Off",
@@ -6057,8 +6543,8 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
-      "LayoutName": "horizontal",
+      "IsLocked": false,
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Width_DataCard1",
       "OptimizeForDevices": "Off",
