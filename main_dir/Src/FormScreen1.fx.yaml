@@ -6,15 +6,14 @@
     SharePointForm1 As form.PowerApps_CoreControls_Form:
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
-        Height: =620
+        Height: =540
         Item: =SharePointIntegration.Selected
         NumberOfColumns: =2
         OnSuccess: =ResetForm(SharePointForm1);RequestHide()
         SnapToColumns: =false
         UseFluentV9Cards: =true
-        Width: =758
-        X: =404
-        Y: =85
+        Width: =444
+        Y: =165
         ZIndex: =2
 
         "'Ship Title_DataCard1' As typedDataCard.fluentV9TextualEditCard":
@@ -55,8 +54,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 4
+                X: =48
+                Y: =56
                 ZIndex: =2
 
             ErrorMessage1 As Texto:
@@ -116,8 +115,8 @@
                 Items: =Choices([@SpaceShips].'Ship Type')
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 4
+                X: =48
+                Y: =44
                 ZIndex: =2
 
             ErrorMessage2 As Texto:
@@ -177,8 +176,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 4
+                X: =48
+                Y: =40
                 ZIndex: =2
 
             ErrorMessage3 As Texto:
@@ -238,7 +237,7 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =24
+                X: =48
                 Y: =DataCardKey4.Y + DataCardKey4.Height + 4
                 ZIndex: =2
 
@@ -299,7 +298,7 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =24
+                X: =42
                 Y: =DataCardKey5.Y + DataCardKey5.Height + 4
                 ZIndex: =2
 
@@ -360,8 +359,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 4
+                X: =44
+                Y: =40
                 ZIndex: =2
 
             ErrorMessage6 As Texto:
@@ -421,8 +420,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 4
+                X: =46
+                Y: =32
                 ZIndex: =2
 
             ErrorMessage7 As Texto:
@@ -455,10 +454,10 @@
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@SpaceShips],DataSourceInfo.DisplayName,"Decks")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =100
+            Height: =82
             Required: =false
             Update: =Value(DataCardValue8.Value)
-            Width: =379
+            Width: =370
             X: =1
             Y: =3
             ZIndex: =8
@@ -482,8 +481,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 4
+                X: =48
+                Y: =40
                 ZIndex: =2
 
             ErrorMessage8 As Texto:
@@ -566,8 +565,8 @@
                 Size: =10.5
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
-                X: =32
-                Y: =DataCardKey9.Y + DataCardKey9.Height + 5
+                X: =50
+                Y: =44
                 ZIndex: =2
 
             ErrorMessage9 As label:
@@ -653,7 +652,7 @@
         Size: =10.5
         Text: =DataSourceInfo([@SpaceShips],DataSourceInfo.DisplayName,"Title")
         Width: =260
-        X: =88
-        Y: =460
+        X: =92
+        Y: =85
         ZIndex: =6
 
