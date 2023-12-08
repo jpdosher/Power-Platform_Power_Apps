@@ -3,54 +3,14 @@
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
-    Header6 As Cabeçalho:
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        Height: =75
-        Logo: ='large.Icon.png.3732f84cb5b161e9cc1ead8f6f51fa4c'
-        OnSelectLogo: =false
-        Title: ="Space Ships Catalogue"
-        UserEmail: =User().Email
-        UserImage: =User().Image
-        UserName: =User().FullName
-        Width: =Parent.Width
-        X: =0
-        Y: =0
-        ZIndex: =4
-
-    Save_1 As Botão:
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        Height: =39
-        OnSelect: =SubmitForm(SharePointForm1);RequestHide()
-        Text: ="Save and Close"
-        Width: =129
-        X: =32
-        Y: =728
-        ZIndex: =5
-
-    Close As Botão:
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        Height: =39
-        OnSelect: =ResetForm(SharePointForm1);RequestHide()
-        Text: ="Close"
-        Width: =129
-        X: =286
-        Y: =728
-        ZIndex: =6
-
     SharePointForm1 As form.PowerApps_CoreControls_Form:
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
-        Height: =480
+        Height: =347
         UseFluentV9Cards: =true
-        Width: =444
-        X: =40
-        ZIndex: =7
+        Width: =720
+        Y: =75
+        ZIndex: =3
 
         "'Ship Title_DataCard1' As typedDataCard.fluentV9TextualEditCard":
             BorderColor: =RGBA(197, 203, 207, 1)
@@ -64,20 +24,21 @@
             MaxLength: =DataSourceInfo([@SpaceShips], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =DataCardValue1.Value
-            Width: =444
+            Width: =240
             X: =0
             Y: =0
             ZIndex: =8
 
             DataCardKey1 As Texto:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 48
+                Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =10
+                Y: =4 + (DataCardValue1.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             "DataCardValue1 As 'Entrada de texto'":
@@ -88,9 +49,9 @@
                 Required: =Parent.Required
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
-                Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 4
+                Width: =(Parent.Width - 48) * 0.4
+                X: =DataCardKey1.X + DataCardKey1.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage1 As Texto:
@@ -126,20 +87,21 @@
             Height: =100
             Required: =false
             Update: =DataCardValue2.Selected
-            Width: =444
-            X: =0
-            Y: =1
+            Width: =240
+            X: =1
+            Y: =0
             ZIndex: =8
 
             DataCardKey2 As Texto:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 48
+                Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =10
+                Y: =4 + (DataCardValue2.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             "DataCardValue2 As 'Caixa de Combinação'.pcfdataset":
@@ -148,9 +110,9 @@
                 Height: =32
                 Items: =Choices([@SpaceShips].ShipType)
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 4
+                Width: =(Parent.Width - 48) * 0.4
+                X: =DataCardKey2.X + DataCardKey2.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage2 As Texto:
@@ -186,20 +148,21 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue3.Value)
-            Width: =444
-            X: =0
-            Y: =2
+            Width: =240
+            X: =2
+            Y: =0
             ZIndex: =8
 
             DataCardKey3 As Texto:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 48
+                Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =10
+                Y: =4 + (DataCardValue3.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             "DataCardValue3 As 'Entrada de texto'":
@@ -208,9 +171,9 @@
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
-                Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 4
+                Width: =(Parent.Width - 48) * 0.4
+                X: =DataCardKey3.X + DataCardKey3.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage3 As Texto:
@@ -246,20 +209,21 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue4.Value)
-            Width: =444
+            Width: =240
             X: =0
-            Y: =3
+            Y: =1
             ZIndex: =8
 
             DataCardKey4 As Texto:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 48
+                Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =10
+                Y: =4 + (DataCardValue4.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             "DataCardValue4 As 'Entrada de texto'":
@@ -268,9 +232,9 @@
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
-                Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 4
+                Width: =(Parent.Width - 48) * 0.4
+                X: =DataCardKey4.X + DataCardKey4.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage4 As Texto:
@@ -306,20 +270,21 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue5.Value)
-            Width: =444
-            X: =0
-            Y: =4
+            Width: =240
+            X: =1
+            Y: =1
             ZIndex: =8
 
             DataCardKey5 As Texto:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 48
+                Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =10
+                Y: =4 + (DataCardValue5.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             "DataCardValue5 As 'Entrada de texto'":
@@ -328,9 +293,9 @@
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
-                Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 4
+                Width: =(Parent.Width - 48) * 0.4
+                X: =DataCardKey5.X + DataCardKey5.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage5 As Texto:
@@ -366,20 +331,21 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue6.Value)
-            Width: =444
-            X: =0
-            Y: =5
+            Width: =240
+            X: =2
+            Y: =1
             ZIndex: =8
 
             DataCardKey6 As Texto:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 48
+                Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =10
+                Y: =4 + (DataCardValue6.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             "DataCardValue6 As 'Entrada de texto'":
@@ -388,9 +354,9 @@
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
-                Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 4
+                Width: =(Parent.Width - 48) * 0.4
+                X: =DataCardKey6.X + DataCardKey6.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage6 As Texto:
@@ -426,20 +392,21 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue7.Value)
-            Width: =444
+            Width: =240
             X: =0
-            Y: =6
+            Y: =2
             ZIndex: =8
 
             DataCardKey7 As Texto:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 48
+                Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =10
+                Y: =4 + (DataCardValue7.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             "DataCardValue7 As 'Entrada de texto'":
@@ -448,9 +415,9 @@
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
-                Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 4
+                Width: =(Parent.Width - 48) * 0.4
+                X: =DataCardKey7.X + DataCardKey7.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage7 As Texto:
@@ -486,20 +453,21 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue8.Value)
-            Width: =444
-            X: =0
-            Y: =7
+            Width: =240
+            X: =1
+            Y: =2
             ZIndex: =8
 
             DataCardKey8 As Texto:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =RGBA(255, 255, 255, 1)
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 48
+                Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =10
+                Y: =4 + (DataCardValue8.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             "DataCardValue8 As 'Entrada de texto'":
@@ -508,9 +476,9 @@
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
-                Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 4
+                Width: =(Parent.Width - 48) * 0.4
+                X: =DataCardKey8.X + DataCardKey8.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage8 As Texto:
@@ -543,12 +511,12 @@
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@SpaceShips],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =57
             Required: =false
             Update: =DataCardValue9.Attachments
-            Width: =444
-            X: =0
-            Y: =8
+            Width: =240
+            X: =2
+            Y: =2
             ZIndex: =8
 
             DataCardKey9 As label:
@@ -559,10 +527,10 @@
                 PaddingLeft: =0
                 Size: =10.5
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =102
                 Wrap: =false
-                X: =32
-                Y: =10
+                X: =2
+                Y: =10 + (DataCardValue9.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue9 As attachments:
@@ -575,6 +543,7 @@
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(0, 0, 0, 1)
                 FocusedBorderThickness: =1
+                Height: =119
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(62, 74, 83, 1)
                 IsInDataCard: =true
@@ -591,9 +560,9 @@
                 PressedFill: =RGBA(197, 203, 207, 1)
                 Size: =10.5
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =32
-                Y: =DataCardKey9.Y + DataCardKey9.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey9.X + DataCardKey9.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage9 As label:
@@ -629,4 +598,44 @@
                 X: =2
                 Y: =DataCardKey9.Y
                 ZIndex: =4
+
+    Header6 As Cabeçalho:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =75
+        Logo: ='large.Icon.png.3732f84cb5b161e9cc1ead8f6f51fa4c'
+        OnSelectLogo: =false
+        Title: ="Space Ships Catalogue"
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =4
+
+    Close_1 As Botão:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =39
+        OnSelect: =ResetForm(SharePointForm1);RequestHide()
+        Text: ="Close"
+        Width: =129
+        X: =306
+        Y: =430
+        ZIndex: =5
+
+    Save_2 As Botão:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =39
+        OnSelect: =SubmitForm(SharePointForm1);RequestHide()
+        Text: ="Save and Close"
+        Width: =129
+        X: =53
+        Y: =430
+        ZIndex: =6
 
