@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.Close_1.AccessibleLabel"
+                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Attachments_DataCard1.DataCardValue9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.Close_1.AccessibleLabel",
+                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Attachments_DataCard1.DataCardValue9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormScreen1",
-                "type": "FormScreen1.Close_1"
+                "type": "FormScreen1.SharePointForm1.Attachments_DataCard1.DataCardValue9"
               }
             }
           ],
@@ -74,19 +74,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Attachments_DataCard1.DataCardValue9.AccessibleLabel"
+                  "fullyQualifiedName": "FormScreen1.Close_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.SharePointForm1.Attachments_DataCard1.DataCardValue9.AccessibleLabel",
+                  "fullyQualifiedName": "FormScreen1.Close_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormScreen1",
-                "type": "FormScreen1.SharePointForm1.Attachments_DataCard1.DataCardValue9"
+                "type": "FormScreen1.Close_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormScreen1.SharePointForm1.'Ship Image_DataCard1'.AddPicture1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormScreen1.SharePointForm1.'Ship Image_DataCard1'.AddPicture1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormScreen1",
+                "type": "FormScreen1.SharePointForm1.'Ship Image_DataCard1'.AddPicture1"
               }
             }
           ],
