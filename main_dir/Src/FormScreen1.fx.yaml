@@ -10,7 +10,6 @@
         Item: =SharePointIntegration.Selected
         NumberOfColumns: =2
         OnSuccess: =ResetForm(SharePointForm1);RequestHide()
-        SnapToColumns: =false
         UseFluentV9Cards: =true
         Width: =444
         Y: =165
@@ -27,7 +26,7 @@
             Height: =50
             Required: =false
             Update: =Image1.Image
-            Width: =444
+            Width: =222
             X: =1
             Y: =4
             ZIndex: =1
@@ -100,7 +99,7 @@
             MaxLength: =DataSourceInfo([@SpaceShips], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =DataCardValue1.Value
-            Width: =379
+            Width: =222
             X: =0
             Y: =0
             ZIndex: =8
@@ -128,8 +127,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =48
-                Y: =56
+                X: =21
+                Y: =45
                 ZIndex: =2
 
             ErrorMessage1 As Texto:
@@ -167,7 +166,7 @@
             Height: =100
             Required: =false
             Update: =DataCardValue2.Selected
-            Width: =379
+            Width: =222
             X: =1
             Y: =0
             ZIndex: =8
@@ -191,7 +190,7 @@
                 Items: =Choices([@SpaceShips].'Ship Type')
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =Parent.Width - 48
-                X: =48
+                X: =24
                 Y: =44
                 ZIndex: =2
 
@@ -230,7 +229,7 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue3.Value)
-            Width: =379
+            Width: =222
             X: =0
             Y: =1
             ZIndex: =8
@@ -256,8 +255,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =48
-                Y: =40
+                X: =15
+                Y: =45
                 ZIndex: =2
 
             ErrorMessage3 As Texto:
@@ -295,7 +294,7 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue4.Value)
-            Width: =379
+            Width: =222
             X: =1
             Y: =1
             ZIndex: =8
@@ -321,8 +320,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =48
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 4
+                X: =21
+                Y: =39
                 ZIndex: =2
 
             ErrorMessage4 As Texto:
@@ -360,7 +359,7 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue5.Value)
-            Width: =379
+            Width: =222
             X: =0
             Y: =2
             ZIndex: =8
@@ -386,8 +385,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =42
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 4
+                X: =24
+                Y: =40
                 ZIndex: =2
 
             ErrorMessage5 As Texto:
@@ -425,7 +424,7 @@
             Height: =100
             Required: =false
             Update: =Value(DataCardValue6.Value)
-            Width: =379
+            Width: =222
             X: =1
             Y: =2
             ZIndex: =8
@@ -451,8 +450,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =44
-                Y: =40
+                X: =20
+                Y: =45
                 ZIndex: =2
 
             ErrorMessage6 As Texto:
@@ -490,7 +489,7 @@
             Height: =60
             Required: =false
             Update: =Value(DataCardValue7.Value)
-            Width: =379
+            Width: =222
             X: =0
             Y: =3
             ZIndex: =8
@@ -516,8 +515,8 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =46
-                Y: =32
+                X: =24
+                Y: =40
                 ZIndex: =2
 
             ErrorMessage7 As Texto:
@@ -555,7 +554,7 @@
             Height: =82
             Required: =false
             Update: =Value(DataCardValue8.Value)
-            Width: =370
+            Width: =222
             X: =1
             Y: =3
             ZIndex: =8
@@ -581,7 +580,7 @@
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =Parent.Width - 48
-                X: =48
+                X: =20
                 Y: =40
                 ZIndex: =2
 
@@ -620,7 +619,7 @@
             Height: =57
             Required: =false
             Update: =DataCardValue9.Attachments
-            Width: =378
+            Width: =222
             X: =0
             Y: =4
             ZIndex: =8
@@ -635,7 +634,7 @@
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
-                X: =2
+                X: =32
                 Y: =10
                 ZIndex: =1
 
