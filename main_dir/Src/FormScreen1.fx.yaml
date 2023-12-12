@@ -57,11 +57,14 @@
 
             AddPicture1 As addMedia:
                 BorderColor: =RGBA(197, 203, 207, 1)
+                ChangePictureText: ="Change Image"
                 Fill: =RGBA(0, 0, 0, 1)
-                Height: =175
-                Width: =Parent.Width - 60
-                X: =32
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                Height: =33
+                Size: =10
+                Text: ="Tap or click to add an image"
+                Width: =181
+                X: =13
+                Y: =11
                 ZIndex: =3
 
             ErrorMessage10 As Texto:
