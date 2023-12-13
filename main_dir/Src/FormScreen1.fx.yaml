@@ -624,7 +624,7 @@
             Height: =57
             Required: =false
             Update: =DataCardValue9.Attachments
-            Width: =222
+            Width: =444
             X: =0
             Y: =5
             ZIndex: =8
@@ -750,16 +750,18 @@
         Y: =725
         ZIndex: =5
 
-    Label1 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(197, 203, 207, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        PaddingLeft: =0
-        Size: =10.5
-        Text: =DataSourceInfo([@SpaceShips],DataSourceInfo.DisplayName,"Title")
-        Width: =260
-        X: =92
-        Y: =85
+    TextCanvas1 As Texto:
+        DisplayMode: =DisplayMode.Edit
+        Height: =38
+        Text: |+
+            =If(
+                IsBlank(SharePointIntegration.Selected.'Ship Title'),
+                "Ship Title",
+                SharePointIntegration.Selected.'Ship Title'
+            )
+            
+        Width: =329
+        X: =59
+        Y: =96
         ZIndex: =6
 
