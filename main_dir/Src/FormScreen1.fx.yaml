@@ -6,7 +6,7 @@
     SharePointForm1 As form.PowerApps_CoreControls_Form:
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
-        Height: =540
+        Height: =391
         Item: |-
             =If(
                 varFormType = "New",
@@ -17,45 +17,8 @@
         OnSuccess: =ResetForm(SharePointForm1);RequestHide()
         UseFluentV9Cards: =true
         Width: =444
-        Y: =165
+        Y: =313
         ZIndex: =2
-
-        Picture_DataCard1 As typedDataCard.fluentV9ImageViewCard:
-            BorderColor: =RGBA(197, 203, 207, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Picture"
-            Default: =ThisItem.Picture
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@SpaceShips],DataSourceInfo.DisplayName,"Picture")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Width: =444
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-            DataCardKey11 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =34
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =32
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue10 As image:
-                BorderColor: =RGBA(197, 203, 207, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                Height: =175
-                Image: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =20
-                ZIndex: =2
 
         "'Ship Title_DataCard1' As typedDataCard.fluentV9TextualEditCard":
             BorderColor: =RGBA(197, 203, 207, 1)
@@ -71,7 +34,7 @@
             Update: =DataCardValue1.Value
             Width: =222
             X: =0
-            Y: =1
+            Y: =0
             ZIndex: =8
 
             DataCardKey1 As Texto:
@@ -138,7 +101,7 @@
             Update: =DataCardValue2.Selected
             Width: =222
             X: =1
-            Y: =1
+            Y: =0
             ZIndex: =8
 
             DataCardKey2 As Texto:
@@ -201,7 +164,7 @@
             Update: =Value(DataCardValue3.Value)
             Width: =222
             X: =0
-            Y: =2
+            Y: =1
             ZIndex: =8
 
             DataCardKey3 As Texto:
@@ -266,7 +229,7 @@
             Update: =Value(DataCardValue4.Value)
             Width: =222
             X: =1
-            Y: =2
+            Y: =1
             ZIndex: =8
 
             DataCardKey4 As Texto:
@@ -331,7 +294,7 @@
             Update: =Value(DataCardValue5.Value)
             Width: =222
             X: =0
-            Y: =3
+            Y: =2
             ZIndex: =8
 
             DataCardKey5 As Texto:
@@ -396,7 +359,7 @@
             Update: =Value(DataCardValue6.Value)
             Width: =222
             X: =1
-            Y: =3
+            Y: =2
             ZIndex: =8
 
             DataCardKey6 As Texto:
@@ -461,7 +424,7 @@
             Update: =Value(DataCardValue7.Value)
             Width: =222
             X: =0
-            Y: =4
+            Y: =3
             ZIndex: =8
 
             DataCardKey7 As Texto:
@@ -526,7 +489,7 @@
             Update: =Value(DataCardValue8.Value)
             Width: =222
             X: =1
-            Y: =4
+            Y: =3
             ZIndex: =8
 
             DataCardKey8 As Texto:
@@ -591,7 +554,7 @@
             Update: =DataCardValue9.Attachments
             Width: =444
             X: =0
-            Y: =5
+            Y: =4
             ZIndex: =8
 
             DataCardKey9 As label:
@@ -734,4 +697,18 @@
         X: =0
         Y: =60
         ZIndex: =6
+
+    Image1 As image:
+        BorderColor: =RGBA(197, 203, 207, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =175
+        Image: |-
+            =LookUp(
+                'ImageLib',
+                AssociatedShip = SharePointIntegration.Selected.'ID'
+            )
+        Width: =444
+        Y: =120
+        ZIndex: =7
 
