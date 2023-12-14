@@ -48,10 +48,11 @@
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
-                Height: =AddPicture1.Height
+                Height: =66
                 Image: =If(IsBlank(AddPicture1.Media), Parent.Default, AddPicture1.Media)
+                ImagePosition: =ImagePosition.Center
                 Tooltip: =Parent.DisplayName
-                Width: =AddPicture1.Width
+                Width: =108
                 X: =AddPicture1.X
                 Y: =AddPicture1.Y
                 ZIndex: =2
@@ -751,8 +752,12 @@
         ZIndex: =5
 
     TextCanvas1 As Texto:
+        Align: ='TextCanvas.Align'.Center
         DisplayMode: =DisplayMode.Edit
-        Height: =38
+        Font: =Font.'Lato Black'
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =72
+        Size: =24
         Text: |+
             =If(
                 IsBlank(SharePointIntegration.Selected.'Ship Title'),
@@ -760,8 +765,9 @@
                 SharePointIntegration.Selected.'Ship Title'
             )
             
-        Width: =329
-        X: =59
-        Y: =96
+        Weight: ='TextCanvas.Weight'.Bold
+        Width: =444
+        X: =0
+        Y: =60
         ZIndex: =6
 
