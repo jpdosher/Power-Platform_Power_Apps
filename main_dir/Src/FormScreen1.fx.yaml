@@ -17,7 +17,7 @@
         OnSuccess: =ResetForm(SharePointForm1);RequestHide()
         UseFluentV9Cards: =true
         Width: =444
-        Y: =313
+        Y: =300
         ZIndex: =2
 
         "'Ship Title_DataCard1' As typedDataCard.fluentV9TextualEditCard":
@@ -637,7 +637,7 @@
                 Y: =DataCardKey9.Y
                 ZIndex: =4
 
-    Header6 As Cabeçalho:
+    Header As Cabeçalho:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontColor: =
@@ -653,7 +653,7 @@
         Y: =0
         ZIndex: =3
 
-    Close_1 As Botão:
+    Close As Botão:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontColor: =
@@ -665,7 +665,7 @@
         Y: =725
         ZIndex: =4
 
-    Save_2 As Botão:
+    Save As Botão:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontColor: =
@@ -702,8 +702,13 @@
         BorderColor: =RGBA(197, 203, 207, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =175
-        Width: =444
+        Height: =180
+        Image: |-
+            =LookUp( 
+                'Image Library',
+                 ID=SharePointIntegration.SelectedListItemID).Thumbnail.Medium
+        Width: =285
+        X: =90
         Y: =120
         ZIndex: =7
 

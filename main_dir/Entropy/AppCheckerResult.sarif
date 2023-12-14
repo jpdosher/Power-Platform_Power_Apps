@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.Save_2.AccessibleLabel"
+                  "fullyQualifiedName": "FormScreen1.Save.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.Save_2.AccessibleLabel",
+                  "fullyQualifiedName": "FormScreen1.Save.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormScreen1",
-                "type": "FormScreen1.Save_2"
+                "type": "FormScreen1.Save"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormScreen1.Close_1.AccessibleLabel"
+                  "fullyQualifiedName": "FormScreen1.Close.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormScreen1.Close_1.AccessibleLabel",
+                  "fullyQualifiedName": "FormScreen1.Close.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormScreen1",
-                "type": "FormScreen1.Close_1"
+                "type": "FormScreen1.Close"
               }
             }
           ],

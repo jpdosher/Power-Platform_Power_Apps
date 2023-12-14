@@ -8,6 +8,9 @@
     "datasets": {
       "https://xl86x.sharepoint.com/sites/StarTrekSP": {
         "dataSources": {
+          "Image Library": {
+            "tableName": "4cedf29e-2c2a-47a1-8443-4063544b2ece"
+          },
           "SpaceShips": {
             "tableName": "4328af1c-4805-4e9c-a0df-74f3ff30d3b7"
           }
@@ -15,7 +18,8 @@
       }
     },
     "dataSources": [
-      "SpaceShips"
+      "SpaceShips",
+      "Image Library"
     ],
     "dependencies": {},
     "dependents": [],
