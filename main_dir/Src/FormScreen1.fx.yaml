@@ -7,7 +7,12 @@
         BorderColor: =RGBA(197, 203, 207, 1)
         DataSource: =SpaceShips
         Height: =540
-        Item: =SharePointIntegration.Selected
+        Item: |-
+            =If(
+                varFormType = "New",
+                Blank(),
+                SharePointIntegration.Selected
+            )
         NumberOfColumns: =2
         OnSuccess: =ResetForm(SharePointForm1);RequestHide()
         UseFluentV9Cards: =true
