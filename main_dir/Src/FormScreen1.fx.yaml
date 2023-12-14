@@ -15,25 +15,23 @@
         Y: =165
         ZIndex: =2
 
-        "'Ship Image_DataCard1' As typedDataCard.fluentV9AddLargePictureCard":
+        Picture_DataCard1 As typedDataCard.fluentV9ImageViewCard:
             BorderColor: =RGBA(197, 203, 207, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="ShipImage"
-            Default: =ThisItem.'Ship Image'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@SpaceShips],DataSourceInfo.DisplayName,"ShipImage")
+            DataField: ="Picture"
+            Default: =ThisItem.Picture
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@SpaceShips],DataSourceInfo.DisplayName,"Picture")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =177
+            Height: =50
             Required: =false
-            Update: =Image1.Image
             Width: =444
             X: =0
             Y: =0
             ZIndex: =1
 
-            DataCardKey10 As Texto:
+            DataCardKey11 As Texto:
                 DisplayMode: =DisplayMode.Edit
-                FontColor: =
                 Height: =34
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -43,55 +41,16 @@
                 Y: =10
                 ZIndex: =1
 
-            Image1 As image:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+            DataCardValue10 As image:
+                BorderColor: =RGBA(197, 203, 207, 1)
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
-                Height: =66
-                Image: =If(IsBlank(AddPicture1.Media), Parent.Default, AddPicture1.Media)
-                ImagePosition: =ImagePosition.Center
-                Tooltip: =Parent.DisplayName
-                Width: =108
-                X: =AddPicture1.X
-                Y: =AddPicture1.Y
-                ZIndex: =2
-
-            AddPicture1 As addMedia:
-                BorderColor: =RGBA(197, 203, 207, 1)
-                ChangePictureText: ="Change Image"
-                Fill: =RGBA(0, 0, 0, 1)
-                Height: =33
-                Size: =10
-                Text: ="Tap or click to add an image"
-                Width: =181
-                X: =22
-                ZIndex: =3
-
-            ErrorMessage10 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                FontColor: =
-                Height: =10
-                Size: =8
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Height: =175
+                Image: =Parent.Default
                 Width: =Parent.Width - 60
-                X: =32
-                Y: =Image1.Y + Image1.Height
-                ZIndex: =4
-
-            StarVisible10 As Texto:
-                Align: ='TextCanvas.Align'.Center
-                DisplayMode: =DisplayMode.Edit
-                FontColor: =
-                Height: =DataCardKey10.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                X: =2
-                Y: =DataCardKey10.Y
-                ZIndex: =5
+                X: =20
+                ZIndex: =2
 
         "'Ship Title_DataCard1' As typedDataCard.fluentV9TextualEditCard":
             BorderColor: =RGBA(197, 203, 207, 1)
