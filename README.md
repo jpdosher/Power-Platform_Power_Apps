@@ -21,7 +21,7 @@ To get started with Power Apps, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/jpdosher/Power-Platform_Power_Apps.git
     ```
 2. **Open Power Apps**: Navigate to the Power Apps portal at [Power Apps](https://make.powerapps.com/).
 3. **Import the App**: Follow the instructions to import the app from the repository into your Power Apps environment. (the app must be packed into ".msapp"
