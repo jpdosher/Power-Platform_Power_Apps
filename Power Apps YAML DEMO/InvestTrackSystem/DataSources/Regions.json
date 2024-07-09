@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "jpd_regions",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "jpd_region",
+    "MaxGetRowsCount": 500,
+    "Name": "Regions",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "jpd_investmsentrequest_Region_id_jpd_region": "InvestmentRequests",
+      "jpd_name": "Name",
+      "jpd_region_AsyncOperations": "System Jobs",
+      "jpd_region_BulkDeleteFailures": "Bulk Delete Failures",
+      "jpd_region_DuplicateBaseRecord": "Duplicate Records (jpd_region_DuplicateBaseRecord)",
+      "jpd_region_DuplicateMatchingRecord": "Duplicate Records (jpd_region_DuplicateMatchingRecord)",
+      "jpd_region_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "jpd_region_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "jpd_region_ProcessSession": "Process Sessions",
+      "jpd_region_SyncErrors": "Sync Errors",
+      "jpd_regionid": "Region",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Regions",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Regions (Modos de exibição)",
+    "Name": "_jpd_region_views",
+    "RelatedEntityName": "Regions",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "25cb214c-4a69-4596-9996-3d194ae1f3dc": "Region Advanced Find View",
+      "30950752-ceb1-439f-916d-2946d40ad986": "Region Associated View",
+      "4efa2390-2def-4a4e-a32c-502695d1a545": "Active Regions",
+      "82f67eea-e02b-4fc7-a1bd-f7dafedddbcc": "Region Lookup View",
+      "bea23528-3e2c-4d9f-932a-42f94a8b4297": "Inactive Regions"
+    }
+  },
+  {
+    "DisplayName": "Status (Regions)",
+    "Name": "jpd_region_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Regions"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Regions",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Regions)",
+    "Name": "jpd_region_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Regions"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Regions",
+    "Type": "OptionSetInfo"
+  }
+]

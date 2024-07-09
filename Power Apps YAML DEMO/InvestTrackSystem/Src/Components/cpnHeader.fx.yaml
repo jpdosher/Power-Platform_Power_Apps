@@ -1,0 +1,48 @@
+cpnHeader As CanvasComponent:
+    Fill: =RGBA(152, 208, 70, 1)
+    Height: =80
+    Width: =1300
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    imgUser As image:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =71
+        Image: =User().Image
+        Width: =96
+        X: =1200
+        Y: =4
+        ZIndex: =1
+
+    txtSalutation As Text:
+        BorderStyle: =""
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: |-
+            ="Good " & 
+                If(Hour(Now()) < 12, "morning", 
+                   If(Hour(Now()) < 18, "afternoon", "evening")) &
+                ", " & User().FullName
+        Width: =206
+        X: =960
+        Y: =23
+        ZIndex: =2
+
+    labTitle As label:
+        BorderColor: =App.Theme.Colors.Darker40
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =App.Theme.Font
+        FontWeight: =FontWeight.Bold
+        Height: =71
+        Size: =26
+        Text: ="Investment Request"
+        Width: =336
+        X: =10
+        Y: =4
+        ZIndex: =3
+

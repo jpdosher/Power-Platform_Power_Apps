@@ -1,0 +1,75 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |-
+        =Set(
+            _isLoadingApp,
+            true
+        );
+        Set(
+            _currentUser,
+            User()
+        );
+        Set(
+            _varFilter,
+            Phases.Submited
+        );
+        Set(
+            _varAllFilter,
+            false
+        );
+        Concurrent(
+            Set(
+                _userManagerEmail,
+                IfError(
+                    UsuáriosdoOffice365.ManagerV2(User().Email).mail,
+                    ""
+                )
+            ),
+            Set(
+                _userManagerName,
+                IfError(
+                    UsuáriosdoOffice365.ManagerV2(User().Email).displayName,
+                    ""
+                )
+            ),
+            Set(
+                _userArea,
+                UsuáriosdoOffice365.UserProfileV2(User().Email).department
+            ),
+            Set(
+                _colorPrimary,
+                RGBA(
+                    20,
+                    156,
+                    102,
+                    100
+                )
+            ),
+            Set(
+                _fontPrimary,
+                Font.'Open Sans'
+            ),
+            Set(
+                _today,
+                Date(Year(Today()), Month(Today()), Day(Today())) + Time(12, 0, 0)
+            ),
+            Set(
+                _version,
+                "0.0.5"
+            )
+        );
+        
+        Set(
+            _isLoadingApp,
+            false
+        )
+    StartScreen: =mainScreen
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
