@@ -1,0 +1,100 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "jpd_investmenttypes",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "jpd_investmenttype",
+    "MaxGetRowsCount": 500,
+    "Name": "InvestmentTypes",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "jpd_investmenttype_AsyncOperations": "System Jobs",
+      "jpd_investmenttype_BulkDeleteFailures": "Bulk Delete Failures",
+      "jpd_investmenttype_DuplicateBaseRecord": "Duplicate Records (jpd_investmenttype_DuplicateBaseRecord)",
+      "jpd_investmenttype_DuplicateMatchingRecord": "Duplicate Records (jpd_investmenttype_DuplicateMatchingRecord)",
+      "jpd_InvestmentType_jpd_InvestmentType_Sys": "Users",
+      "jpd_investmenttype_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "jpd_investmenttype_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "jpd_investmenttype_ProcessSession": "Process Sessions",
+      "jpd_investmenttype_SyncErrors": "Sync Errors",
+      "jpd_InvestmentTypeApprover": "InvestmentTypeApprover",
+      "jpd_investmenttypeid": "InvestmentType",
+      "jpd_investmsentrequest_InvestmentType_id_jpd_": "InvestmentRequests",
+      "jpd_name": "Name",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "InvestmentTypes",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "InvestmentTypes (Modos de exibição)",
+    "Name": "_jpd_investmenttype_views",
+    "RelatedEntityName": "InvestmentTypes",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1e8f2a5c-dc38-4b2a-bdb3-b6cef50b0a85": "Inactive InvestmentTypes",
+      "21f354e6-ae24-4c42-b5f2-23694a571bf9": "Active InvestmentTypes",
+      "37623847-a5d3-4b0d-a273-5402dfd9f305": "InvestmentType Advanced Find View",
+      "afe7bc8d-b2f9-4ada-b973-76402f72cce3": "InvestmentType Lookup View",
+      "e78b5f33-6a15-4f29-a75d-17f1a2e59579": "InvestmentType Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (InvestmentTypes)",
+    "Name": "jpd_investmenttype_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "InvestmentTypes"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "InvestmentTypes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (InvestmentTypes)",
+    "Name": "jpd_investmenttype_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "InvestmentTypes"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "InvestmentTypes",
+    "Type": "OptionSetInfo"
+  }
+]
