@@ -1,0 +1,110 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "jpd_devices",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "jpd_device",
+    "MaxGetRowsCount": 500,
+    "Name": "Devices",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "jpd_currentvalue": "Current Value",
+      "jpd_currentvalue_base": "Current Value (Base)",
+      "jpd_datepurchased": "Date Purchased",
+      "jpd_depreciation": "Depreciation",
+      "jpd_device_AsyncOperations": "System Jobs",
+      "jpd_device_BulkDeleteFailures": "Bulk Delete Failures",
+      "jpd_device_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "jpd_device_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "jpd_device_ProcessSession": "Process Sessions",
+      "jpd_device_SyncErrors": "Sync Errors",
+      "jpd_deviceid": "Device",
+      "jpd_deviceimage": "Device Image",
+      "jpd_deviceimageid": "jpd_DeviceImageId",
+      "jpd_devicename": "Device Name",
+      "jpd_devicestatus": "Device Status",
+      "jpd_devicetype": "Device Type",
+      "jpd_iddevice": "ID Device",
+      "jpd_originalpurchasevalue": "Original Purchase Value",
+      "jpd_originalpurchasevalue_base": "Original Purchase Value (Base)",
+      "jpd_serialnumber": "Serial Number",
+      "jpd_SystemUser": "User",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Devices",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Devices (Views)",
+    "Name": "_jpd_device_views",
+    "RelatedEntityName": "Devices",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5c8b2f3f-798d-4913-b4a9-c1afd96a4abf": "Active Devices",
+      "6c28eda1-4af4-47a8-ba68-21d1f612c8fe": "Inactive Devices",
+      "90bada3d-c9aa-4523-9f5b-24ff325e662a": "Device Advanced Find View",
+      "ccbd4cce-00b9-4aa8-953d-0c136f768d18": "Device Lookup View",
+      "d8fc0daa-78f8-422b-9d6f-5575c0c41c9d": "Device Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (Devices)",
+    "Name": "jpd_device_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Devices"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Devices",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Devices)",
+    "Name": "jpd_device_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Devices"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Devices",
+    "Type": "OptionSetInfo"
+  }
+]

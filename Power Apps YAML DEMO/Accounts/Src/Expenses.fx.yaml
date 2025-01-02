@@ -1,0 +1,413 @@
+Expenses As screen:
+
+    Rectangle32 As rectangle:
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =85
+        Width: =541
+        ZIndex: =1
+
+    Rectangle33 As rectangle:
+        Fill: =RGBA(232, 244, 217, 1)
+        Height: =85
+        Width: =796
+        X: =570
+        ZIndex: =2
+
+    Icon12 As icon.Edit:
+        Height: =43
+        Icon: =Icon.Add
+        OnSelect: |-
+            =Navigate(ExpensesEdit,ScreenTransition.None,{SelectedItem:Blank()})
+        Width: =45
+        X: =1228
+        Y: =19
+        ZIndex: =3
+
+    Label12 As label:
+        Height: =41
+        Text: ="All Accounts"
+        Width: =413
+        X: =40
+        Y: =21
+        ZIndex: =4
+
+    Icon13 As icon.Edit:
+        Height: =43
+        Icon: =Icon.Edit
+        OnSelect: |-
+            =    Navigate(ExpensesEdit,ScreenTransition.None,{SelectedItem:Gallery11.Selected})
+        Width: =45
+        X: =1287
+        Y: =21
+        ZIndex: =5
+
+    Icon21 As icon.Reload:
+        Height: =42
+        Icon: =Icon.Reload
+        OnSelect: =Refresh(Expenseses)
+        Width: =47
+        X: =474
+        Y: =22
+        ZIndex: =6
+
+    Label13 As label:
+        Height: =41
+        Text: ="Current Account"
+        Width: =413
+        X: =603
+        Y: =22
+        ZIndex: =7
+
+    "Gallery11 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =644
+        Items: =Expenseses
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =116
+        Width: =501
+        X: =40
+        Y: =96
+        ZIndex: =8
+
+        Rectangle2_1 As rectangle:
+            Height: =Parent.TemplateHeight - Separator2_1.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =1
+
+        Title2_1 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Date of Expense'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle2_1.Size*1.8 + 2 + Body1_1.Size*1.8)) / 2
+            ZIndex: =2
+
+        NextArrow2_1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            Tooltip: ="View item details"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =3
+
+        Subtitle2_1 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Description
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title2_1.Width
+            X: =Title2_1.X
+            Y: =Title2_1.Y + Title2_1.Height
+            ZIndex: =4
+
+        Body1_1 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Expense ID'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title2_1.Width
+            X: =Title2_1.X
+            Y: =Subtitle2_1.Y + Subtitle2_1.Height
+            ZIndex: =5
+
+        Separator2_1 As rectangle:
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =6
+
+    FormViewer11 As formViewer:
+        AcceptsFocus: =false
+        BorderThickness: =1
+        DataSource: =Expenseses
+        Height: =646
+        Item: =Gallery11.Selected
+        Width: =786
+        X: =580
+        Y: =116
+        ZIndex: =10
+
+        "'Created On_DataCard2' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="createdon"
+            Default: =ThisItem.'Created On'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Expenseses],DataSourceInfo.DisplayName,createdon)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =261
+            X: =0
+            Y: =0
+            ZIndex: =11
+
+            DataCardKey33 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue31 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey33.Y + DataCardKey33.Height + 5
+                ZIndex: =2
+
+        "'Exchange Rate_DataCard1' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="exchangerate"
+            Default: =ThisItem.'Exchange Rate'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Expenseses],DataSourceInfo.DisplayName,exchangerate)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =261
+            X: =1
+            Y: =0
+            ZIndex: =11
+
+            DataCardKey34 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue32 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey34.Y + DataCardKey34.Height + 5
+                ZIndex: =2
+
+        "'Date of Expense_DataCard3' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="jpd_dateofexpense"
+            Default: =ThisItem.'Date of Expense'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Expenseses],DataSourceInfo.DisplayName,jpd_dateofexpense)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =261
+            X: =2
+            Y: =0
+            ZIndex: =11
+
+            DataCardKey35 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue33 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey35.Y + DataCardKey35.Height + 5
+                ZIndex: =2
+
+        Description_DataCard3 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="jpd_description"
+            Default: =ThisItem.Description
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Expenseses],DataSourceInfo.DisplayName,jpd_description)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =261
+            X: =0
+            Y: =1
+            ZIndex: =11
+
+            DataCardKey36 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue34 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey36.Y + DataCardKey36.Height + 5
+                ZIndex: =2
+
+        "'Expense ID_DataCard2' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="jpd_expenseid"
+            Default: =ThisItem.'Expense ID'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Expenseses],DataSourceInfo.DisplayName,jpd_expenseid)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =261
+            X: =1
+            Y: =1
+            ZIndex: =11
+
+            DataCardKey37 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue35 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey37.Y + DataCardKey37.Height + 5
+                ZIndex: =2
+
+        ExpenseReceipt_DataCard3 As typedDataCard.largeImageViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="jpd_expensereceipt"
+            Default: =ThisItem.ExpenseReceipt
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Expenseses],DataSourceInfo.DisplayName,jpd_expensereceipt)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Width: =261
+            X: =2
+            Y: =1
+            ZIndex: =11
+
+            DataCardKey38 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue36 As image:
+                DisplayMode: =Parent.DisplayMode
+                Height: =200
+                Image: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey38.Y + DataCardKey38.Height + 5
+                ZIndex: =2
+
+        Value_DataCard3 As typedDataCard.USCurrencyViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="jpd_value"
+            Default: =ThisItem.Value
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Expenseses],DataSourceInfo.DisplayName,jpd_value)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Width: =261
+            X: =0
+            Y: =2
+            ZIndex: =11
+
+            DataCardKey39 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue37 As label:
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: |-
+                    =Text(Parent.Default, "$###.##")
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey39.Y + DataCardKey39.Height + 5
+                ZIndex: =2
+

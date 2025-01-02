@@ -1,0 +1,128 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "jpd_expenseses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "jpd_expenses",
+    "MaxGetRowsCount": 500,
+    "Name": "Expenseses",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "jpd_Account": "Account",
+      "jpd_date28": "Date28",
+      "jpd_dateofexpense": "Date of Expense",
+      "jpd_description": "Description",
+      "jpd_expenseid": "Expense ID",
+      "jpd_expensereceipt": "ExpenseReceipt",
+      "jpd_expensereceiptid": "jpd_ExpenseReceiptId",
+      "jpd_expenses_AsyncOperations": "System Jobs",
+      "jpd_expenses_BulkDeleteFailures": "Bulk Delete Failures",
+      "jpd_expenses_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "jpd_expenses_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "jpd_expenses_ProcessSession": "Process Sessions",
+      "jpd_expenses_SyncErrors": "Sync Errors",
+      "jpd_expensesid": "Expenses",
+      "jpd_status": "Status (jpd_status)",
+      "jpd_value": "Value",
+      "jpd_value_base": "Value (Base)",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status (statecode)",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Expenseses",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Expenseses (Views)",
+    "Name": "_jpd_expenses_views",
+    "RelatedEntityName": "Expenseses",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "084f76f2-7402-43e5-9752-bd5781ef0736": "Active Expenseses",
+      "358c877f-a83c-4890-8a13-a3e0991c7b91": "Expenses Advanced Find View",
+      "3c50f498-0a29-4a59-bbb3-45be4213d14f": "Expenses Lookup View",
+      "707e7602-d69e-4a6a-8cfc-e0864d09da59": "Inactive Expenseses",
+      "ce05dc86-79d6-4696-be07-3134b2fdd92e": "Expenses Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (Expenseses)",
+    "Name": "jpd_expenses_jpd_status",
+    "OptionSetInfoNameMapping": {
+      "123450000": "Pending",
+      "123450001": "Approved",
+      "123450002": "Rejected",
+      "123450003": "Approve not needed"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "jpd_status",
+        "OptionSetReferenceEntityName": "Expenseses"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "jpd_status",
+    "RelatedEntityName": "Expenseses",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Expenseses)_1",
+    "Name": "jpd_expenses_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Expenseses"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Expenseses",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Expenseses)",
+    "Name": "jpd_expenses_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Expenseses"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Expenseses",
+    "Type": "OptionSetInfo"
+  }
+]

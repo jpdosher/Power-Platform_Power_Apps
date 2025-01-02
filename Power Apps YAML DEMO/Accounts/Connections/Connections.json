@@ -1,0 +1,29 @@
+{
+  "5dbdc407-1a0a-4482-bb9d-0f9e4b8c6830": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Microsoft Translator V2",
+      "executionRestrictions": {
+        "apiId": "/providers/microsoft.powerapps/apis/shared_translatorv2",
+        "appVer": "3.24111.11",
+        "modifiedOn": "2024-11-20 15:52:00",
+        "policy": "{\"type\":\"unused\"}",
+        "version": 1
+      },
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1720/1.0.1720.3960/translatorv2/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_translatorv2",
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_translatorv2/connections/bdc661c4144d473cb443bcac7cf8c244",
+      "xrmConnectionReferenceLogicalName": "new_sharedtranslatorv2_12ee9"
+    },
+    "datasets": {},
+    "dataSources": [
+      "MicrosoftTranslatorV2"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5dbdc407-1a0a-4482-bb9d-0f9e4b8c6830"
+  }
+}
